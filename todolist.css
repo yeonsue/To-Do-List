@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+body{
+    background-color: #b1b1b1;
+    font-family: 'Nanum Gothic';
+}
+h1{
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+input[type=text] {
+    margin-left: 10px;
+    width: 500px;
+    height: 40px;
+    font-size: 25px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    padding:0;
+    background-color: #b1b1b1;
+  }
+  div > div > input{
+    background-color: #b1b1b1;
+  }
+
+  div > div > input:hover{
+    background-color:rgb(198, 60, 60);
+  }
+  div > div {
+    background-color: #6a6a6a;
+    border: 3px solid;
+    border-radius: 10px;
+    margin: 5px;
+    width:auto;
+    height: 35px;
+    font-size: 25px;
+    display: inline-flex;
+  }
+  #listofTodo{
+    flex-wrap: row wrap;
+  }
+
+  input[type=button]{
+    padding: 5px 10px;
+    border-radius: 7px;
+  }
+  #buttonofAdd{
+    background-color: #b1b1b1;
+  }
+  #buttonofAdd:hover{
+    background-color:#6a6a6a;
+  }
